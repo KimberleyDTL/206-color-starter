@@ -10,7 +10,7 @@ html, body {
 }
 
 #wrapper {
-  width: 100%;
+  width: 99%;
   max-width: 960px;
   margin: auto;
 }
@@ -19,16 +19,20 @@ html, body {
 /*---------- HEADER ----------*/
 
 header {
-  height: 300px;
+  height: 320px;
   width: 100%;
-  background: #e3e3e3;
+  background: #4E4E4E;
 }
 
 
 /*---------- CONTENT AREA ----------*/
+.container {
+  display: flex;
+  justify-content: space-between;
+}
 
 .col-3 {
-  width: 100%;
+  width: 33%;
   height: 320px;
   float: left;
 }
